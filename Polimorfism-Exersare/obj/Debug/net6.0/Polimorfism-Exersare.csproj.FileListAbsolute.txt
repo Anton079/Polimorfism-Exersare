@@ -1,0 +1,14 @@
+C:\mycode\oop\mostenire\Polimorfism-Exersare\Polimorfism-Exersare\bin\Debug\net6.0\Polimorfism-Exersare.exe
+C:\mycode\oop\mostenire\Polimorfism-Exersare\Polimorfism-Exersare\bin\Debug\net6.0\Polimorfism-Exersare.deps.json
+C:\mycode\oop\mostenire\Polimorfism-Exersare\Polimorfism-Exersare\bin\Debug\net6.0\Polimorfism-Exersare.runtimeconfig.json
+C:\mycode\oop\mostenire\Polimorfism-Exersare\Polimorfism-Exersare\bin\Debug\net6.0\Polimorfism-Exersare.dll
+C:\mycode\oop\mostenire\Polimorfism-Exersare\Polimorfism-Exersare\bin\Debug\net6.0\Polimorfism-Exersare.pdb
+C:\mycode\oop\mostenire\Polimorfism-Exersare\Polimorfism-Exersare\obj\Debug\net6.0\Polimorfism-Exersare.GeneratedMSBuildEditorConfig.editorconfig
+C:\mycode\oop\mostenire\Polimorfism-Exersare\Polimorfism-Exersare\obj\Debug\net6.0\Polimorfism-Exersare.AssemblyInfoInputs.cache
+C:\mycode\oop\mostenire\Polimorfism-Exersare\Polimorfism-Exersare\obj\Debug\net6.0\Polimorfism-Exersare.AssemblyInfo.cs
+C:\mycode\oop\mostenire\Polimorfism-Exersare\Polimorfism-Exersare\obj\Debug\net6.0\Polimorfism-Exersare.csproj.CoreCompileInputs.cache
+C:\mycode\oop\mostenire\Polimorfism-Exersare\Polimorfism-Exersare\obj\Debug\net6.0\Polimorfism-Exersare.dll
+C:\mycode\oop\mostenire\Polimorfism-Exersare\Polimorfism-Exersare\obj\Debug\net6.0\refint\Polimorfism-Exersare.dll
+C:\mycode\oop\mostenire\Polimorfism-Exersare\Polimorfism-Exersare\obj\Debug\net6.0\Polimorfism-Exersare.pdb
+C:\mycode\oop\mostenire\Polimorfism-Exersare\Polimorfism-Exersare\obj\Debug\net6.0\Polimorfism-Exersare.genruntimeconfig.cache
+C:\mycode\oop\mostenire\Polimorfism-Exersare\Polimorfism-Exersare\obj\Debug\net6.0\ref\Polimorfism-Exersare.dll

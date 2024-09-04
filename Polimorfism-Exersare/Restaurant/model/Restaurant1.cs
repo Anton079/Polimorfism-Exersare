@@ -39,24 +39,24 @@ namespace Polimorfism_Exersare.Restaurant.model
             set { _hasOutdoorSeating = value; }
         }
 
-        public virtual void AfisareMeniu()
+        public override string AfisareMeniu()
         {
-            Console.WriteLine(base.Meniu);
+            return Meniu;
         }
 
-        public virtual void AfisareOrar()
+        public override string AfisareOrar()
         {
-            Console.WriteLine(base.Program);
+            return Program;
         }
 
-        public virtual void NrAngjati()
+        public override int NrAngjati()
         {
-            Console.WriteLine(base.NrEmployee);
+            return NrEmployee;
         }
 
-        public virtual void AfisareCapacitatePersoane()
+        public override int AfisareCapacitatePersoane()
         {
-            Console.WriteLine(base.CapacityCustomer);
+            return CapacityCustomer;
         }
 
         public override string RestaurantInfo()

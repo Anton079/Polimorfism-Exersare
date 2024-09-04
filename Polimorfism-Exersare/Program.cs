@@ -1,7 +1,14 @@
-﻿internal class Program
+﻿using Polimorfism_Exersare;
+using service;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        ServiceRestaurant serviceRestaurant = new ServiceRestaurant();
+
+        View view = new View(serviceRestaurant);
+
+        view.play();
     }
 }

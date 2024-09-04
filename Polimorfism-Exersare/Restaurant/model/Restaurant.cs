@@ -19,17 +19,17 @@ namespace Polimorfism_Exersare.Restaurant.model
         private int _capacityCustomer;
         private int _nrEmployee;
 
-        
 
-        public virtual int AfisareMeniu()
+
+        public virtual string AfisareMeniu()
         {
-            return -1;
+            return null;
         }
 
-        public virtual int AfisareOrar()
+        public virtual string AfisareOrar()
         {
-            return -1;
-        } 
+            return null;
+        }
 
         public virtual int NrAngjati()
         {

@@ -7,15 +7,16 @@ using System.Threading.Tasks;
 using Polimorfism_Exersare.Restaurant;
 using Polimorfism_Exersare.Restaurant.model;
 
-namespace Polimorfism_Exersare.Restaurant.service
+
+namespace service
 {
     public class ServiceRestaurant
     {
-        private List<Polimorfism_Exersare.Restaurant.model.Restaurant> _restaurantList;
+        private List<Restaurant> _restaurantList;
 
         public ServiceRestaurant()
         {
-            _restaurantList = new List<Polimorfism_Exersare.Restaurant.model.Restaurant>();
+            _restaurantList = new List<Restaurant>();
             LoadData();
         }
 
@@ -96,6 +97,37 @@ namespace Polimorfism_Exersare.Restaurant.service
             }
         }
 
-        
+        public void AfisareMeniu()
+        {
+            foreach (Restaurant restaurant in _restaurantList)
+            {
+                Console.WriteLine(restaurant.AfisareMeniu());
+            }
+        }
+
+        public void AfisareProgram()
+        {
+            foreach(Restaurant restaurant in _restaurantList)
+            {
+                Console.WriteLine(restaurant.AfisareOrar());
+            }
+        }
+
+        public void AfisareNrAngajati()
+        {
+            foreach (Restaurant restaurant in _restaurantList)
+            {
+                Console.WriteLine(restaurant.NrAngjati());
+            }
+        }
+
+        public void AfisareCapacitateClienti()
+        {
+            foreach (Restaurant restaurant in _restaurantList)
+            {
+                Console.WriteLine(restaurant.AfisareCapacitatePersoane());
+            }
+        }
+
     }
 }

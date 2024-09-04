@@ -1,0 +1,12 @@
+Fast Food,1,QuickBite,1234567890,Main Street,CityA,Fast Food Menu,9-10,50,15,true,true
+Diner,2,MorningGlory,2345678901,Sunset Blvd,CityB,Diner Menu,7-11,60,20,true,false
+Bistro,3,UrbanEats,3456789012,Downtown Ave,CityC,Bistro Menu,8-9,40,10,false,true
+Vegan,4,GreenLeaf,4567890123,Elm Street,CityD,Vegan Menu,10-8,30,12,true,true
+Cafe,5,CaffeineFix,5678901234,Maple Ave,CityE,Cafe Menu,6-6,25,8,false,true
+Brasserie,6,MorningBrew,6789012345,River Road,CityF,Brasserie Menu,7-7,35,14,true,false
+Steakhouse,7,PrimeCuts,7890123456,Broadway,CityG,Steakhouse Menu,11-11,80,25,true,true
+Pizzeria,8,SliceOfLife,8901234567,Pizza Lane,CityH,Pizzeria Menu,10-10,45,18,false,true
+Seafood,9,OceanBreeze,9012345678,Harbor Street,CityI,Seafood Menu,12-10,70,22,true,false
+Fine Dining,10,Elegance,1234567891,Luxury Blvd,CityJ,Fine Dining Menu,5-11,100,35,true
+Pub,11,Cheers,2345678912,Ale Street,CityK,Pub Menu,4-2,60,20,false
+Barbecue,12,GrillMaster,3456789123,Smokehouse Road,CityL,BBQ Menu,11-10,50,15,true
