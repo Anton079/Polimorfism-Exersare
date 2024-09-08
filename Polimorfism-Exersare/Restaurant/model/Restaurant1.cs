@@ -11,8 +11,8 @@ namespace Polimorfism_Exersare.Restaurant.model
         private bool _hasVegetarianOptions;
         private bool _hasOutdoorSeating;
 
-        public Restaurant1(string typeRestaurant, int id, string name, int phoneNumber, string street, string city, string meniu, string program, int capacitateCustomer, int nrEmployee, bool hasVegetarianOptions, bool hasOutDoorSeating)
-            : base( typeRestaurant, id, name, phoneNumber, street, city, meniu, program, capacitateCustomer, nrEmployee)
+        public Restaurant1(string NrRestaurantstring ,string typeRestaurant, int id, string name, int phoneNumber, string street, string city, string meniu, string program, int capacitateCustomer, int nrEmployee, bool hasVegetarianOptions, bool hasOutDoorSeating)
+            : base(NrRestaurantstring, typeRestaurant, id, name, phoneNumber, street, city, meniu, program, capacitateCustomer, nrEmployee)
         {
             _hasVegetarianOptions = hasVegetarianOptions;
             _hasOutdoorSeating = hasOutDoorSeating;
@@ -23,8 +23,8 @@ namespace Polimorfism_Exersare.Restaurant.model
         {
             string[] token = proprietati.Split(',');
 
-            _hasVegetarianOptions = bool.Parse(token[10]);
-            _hasOutdoorSeating = bool.Parse(token[11]);
+            _hasVegetarianOptions = bool.Parse(token[11]);
+            _hasOutdoorSeating = bool.Parse(token[12]);
         }
 
         public bool HadVegetarianOptions

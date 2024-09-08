@@ -8,6 +8,7 @@ namespace Polimorfism_Exersare.Restaurant.model
 {
     public class Restaurant
     {
+        private string _nrRestaurant;
         private string _typeRestaurant;
         private int _id;
         private string _name;
@@ -41,8 +42,9 @@ namespace Polimorfism_Exersare.Restaurant.model
             return -1;
         }
 
-        public Restaurant(string typeRestaurant, int id, string name, int phoneNumber, string street, string city, string meniu, string program, int capacitateCustomer, int nrEmployee)
+        public Restaurant(string nrRestaurant, string typeRestaurant, int id, string name, int phoneNumber, string street, string city, string meniu, string program, int capacitateCustomer, int nrEmployee)
         {
+            _nrRestaurant = nrRestaurant;
             _typeRestaurant = typeRestaurant;
             _id = id;
             _name = name;
@@ -59,16 +61,23 @@ namespace Polimorfism_Exersare.Restaurant.model
         {
             string[] token = proprietati.Split(',');
 
-            _typeRestaurant = token[0];
-            _id = int.Parse(token[1]);
-            _name = token[2];
-            _phoneNumber = int.Parse(token[3]);
-            _street = token[4];
-            _city = token[5];
-            _meniu = token[6];
-            _program = token[7];
-            _capacityCustomer = int.Parse(token[8]);
-            _nrEmployee = int.Parse(token[9]);
+            _nrRestaurant = token[0];
+            _typeRestaurant = token[1];
+            _id = int.Parse(token[2]);
+            _name = token[3];
+            _phoneNumber = int.Parse(token[4]);
+            _street = token[5];
+            _city = token[6];
+            _meniu = token[7];
+            _program = token[8];
+            _capacityCustomer = int.Parse(token[9]);
+            _nrEmployee = int.Parse(token[10]);
+        }
+
+        public string NrRestaurant
+        {
+            get { return _nrRestaurant; }
+            set { _nrRestaurant = value; }
         }
 
         public string TypeRestaurant
@@ -93,6 +102,12 @@ namespace Polimorfism_Exersare.Restaurant.model
         {
             get { return _phoneNumber; }
             set { _phoneNumber = value; }
+        }
+
+        public string Street
+        {
+            get { return _street; }
+            set { _street = value; }
         }
 
         public string City
@@ -128,10 +143,12 @@ namespace Polimorfism_Exersare.Restaurant.model
         public virtual string RestaurantInfo()
         {
             string text = " ";
+            text += "Nr Restaurant" + _nrRestaurant + "\n";
             text += "TypeRestaurant" + TypeRestaurant + "\n";
             text += "Id " + Id + "\n";
             text += "Name " + Name + "\n";
             text += "PhoneNumber " + PhoneNumber + "\n";
+            text += "Stret name " + Street + "\n";
             text += "City " + City + "\n";
             text += "Meniu " + Meniu + "\n";
             text += "Program " + Program + "\n";
@@ -142,7 +159,7 @@ namespace Polimorfism_Exersare.Restaurant.model
 
         public virtual string ToSave()
         {
-            return TypeRestaurant + "," + Id + "," + Name + "," + PhoneNumber + "," + City + "," + Meniu + "," + Program + "," + CapacityCustomer + "," + NrEmployee;
+            return NrRestaurant + "," + TypeRestaurant + "," + Id + "," + Name + "," + PhoneNumber + "," + Street + "," + City + "," + Meniu + "," + Program + "," + CapacityCustomer + "," + NrEmployee;
         }
     }
 }

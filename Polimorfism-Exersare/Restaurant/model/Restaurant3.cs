@@ -11,8 +11,8 @@ namespace Polimorfism_Exersare.Restaurant.model
         private bool _hasGlutenFreeOptions;
         private bool _hasParking;
 
-        public Restaurant3(string typeRestaurant, int id, string name, int phoneNumber, string street, string city, string meniu, string program, int capacitateCustomer, int nrEmployee, bool hasGlutenFreeOptions, bool hasParking)
-            : base(typeRestaurant, id, name, phoneNumber, street, city, meniu, program, capacitateCustomer, nrEmployee)
+        public Restaurant3(string NrRestaurantstring , string typeRestaurant, int id, string name, int phoneNumber, string street, string city, string meniu, string program, int capacitateCustomer, int nrEmployee, bool hasGlutenFreeOptions, bool hasParking)
+            : base(NrRestaurantstring, typeRestaurant, id, name, phoneNumber, street, city, meniu, program, capacitateCustomer, nrEmployee)
         {
             _hasGlutenFreeOptions = hasGlutenFreeOptions;
             _hasParking = hasParking;
@@ -22,8 +22,8 @@ namespace Polimorfism_Exersare.Restaurant.model
         {
             string[] token = proprietati.Split(',');
 
-            _hasGlutenFreeOptions = bool.Parse(token[10]);
-            _hasParking = bool.Parse(token[11]);
+            _hasGlutenFreeOptions = bool.Parse(token[11]);
+            _hasParking = bool.Parse(token[12]);
         }
 
         public bool HasGlutenFreeOptions

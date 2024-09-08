@@ -10,8 +10,8 @@ namespace Polimorfism_Exersare.Restaurant.model
     {
         private bool _hasLiveMusic;
 
-        public Restaurant4(string typeRestaurant, int id, string name, int phoneNumber, string street, string city, string meniu, string program, int capacitateCustomer, int nrEmployee, bool hasLiveMusic)
-            : base(typeRestaurant, id, name, phoneNumber, street, city, meniu, program, capacitateCustomer, nrEmployee)
+        public Restaurant4(string NrRestaurantstring, string typeRestaurant, int id, string name, int phoneNumber, string street, string city, string meniu, string program, int capacitateCustomer, int nrEmployee, bool hasLiveMusic)
+            : base(NrRestaurantstring, typeRestaurant, id, name, phoneNumber, street, city, meniu, program, capacitateCustomer, nrEmployee)
         {
             _hasLiveMusic = hasLiveMusic;
         }
@@ -20,7 +20,7 @@ namespace Polimorfism_Exersare.Restaurant.model
         {
             string[] token = proprietati.Split(',');
 
-            _hasLiveMusic = bool.Parse(token[10]);
+            _hasLiveMusic = bool.Parse(token[11]);
         }
 
         public bool HasLiveMusic
